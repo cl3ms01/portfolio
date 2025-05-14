@@ -1,0 +1,166 @@
+body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+    color: white;
+}
+
+#clr{
+    clear: both;
+}
+
+img{
+    width: 30%;
+    float: left;
+    height: 50px;
+}
+
+.main{
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+    background-color: bisque;
+    padding-left: 40px;
+    color: black;
+}
+
+#navbar{
+    background-color: darkgray;
+    color: white;
+}
+
+#navbar ul{
+    padding: none;
+    list-style: none;
+}
+
+#navbar li{
+    display: inline;
+    text-align: center;
+    padding: 10px;
+}
+
+#navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding-right: 15px;
+}
+
+#navbar a:hover{
+    color: red;
+}
+
+.welcomeMessage{
+    background-image: url(background1.jpeg);
+    background-position: center right;
+    min-height: 200px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.welcomeMessage h1{
+    color: seashell;
+    padding-top: 10px;
+}
+
+.welcomeMessage p{
+    color: blanchedalmond;
+    font-size: 30px;
+    line-height: 1.6em;
+    padding-top: 30px;
+}
+
+.about1 p{
+background-color: black;
+border: 10px double gray;
+text-align: left;
+float: left;
+min-height: 200px;
+width: 50%;
+box-sizing: border-box;
+padding:15px;
+}
+
+.about2{
+    background-color: coral;
+    float: right;
+    width: 50%;
+    min-height: 100px;
+    box-sizing: border-box;
+    border: 10px double gray;
+    text-align: left;
+}
+
+.about2 h1{
+    padding-left: 40px;
+}
+
+.about2 li{
+    list-style: none;
+    line-height: 2em;
+}
+
+.about3{
+    background-color: darkcyan;
+    color: blue;
+    margin: auto;
+    padding: 40px;
+    border-radius: 100px 100px 100px 100px;
+    float: left;
+    width: 40%;
+}
+
+.about4 {
+    background-color: bisque;
+    width: 100%;
+}
+
+.about4 li{
+    list-style: none;
+    display: inline;
+    padding-right: 40px;
+}
+
+.about4 h1{
+    padding-left: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+}
+
+footer{
+    background-color: black;
+    text-align: right;
+    font-style: bold;
+}
+
+.form{
+    background-color: darkcyan;
+    margin: auto;
+    padding: 20px;
+}
+
+.forms{
+    padding-bottom: 15px;
+}
+
+.form label{
+    display: block;
+}
+
+.form input[type="text"], .forms textarea{
+    padding: 8px;
+    width: 100%;
+}
+
+.button{
+    background-color: brown;
+    color: white;
+    height: 30px;
+}
+
+.form .button:hover{
+    color: blue;
+}
